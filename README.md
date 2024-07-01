@@ -1,5 +1,5 @@
 # not_n_todo
-<a href="https://github.com/simple-icons/simple-icons/actions?query=? %3AVerify+branch%3Adevelop"><img src="https://img.shields.io/github/actions/workflow/status/simple-icons/simple-icons/verify.yml?branch=develop&logo=github&label=tests" alt="Build status"/></a> 
+<a href="https://github.com/simple-icons/simple-icons/actions?query=?"><img src="https://img.shields.io/github/actions/workflow/status/simple-icons/simple-icons/verify.yml?branch=develop&logo=github&label=tests" alt="Build status"/></a> 
 
 ![main menu/commands of the program](https://github.com/vldfrts/not_n_todo/assets/172185952/ad91cace-c0e5-44f8-915c-397a315e7056)
 
