@@ -24,8 +24,26 @@ class Task:
             writer.writerow({'Title': self.title, 'Description': self.description, 'Due Date': self.due_date, 'Status': self.status})
 
 
+
+commands = """
+    _______________________________________
+    ===========not_n_todo==================
+
+    add      | Add Task
+    view     | View Tasks
+    mark     | Mark Tasks Completed
+    unmark   | Unmark Tasks
+    del      | Delete Tasks
+    clear    | Restart
+    Ctrl + D | Exit
+
+    A command line interface task manager.
+    _______________________________________
+    """
+
+
 def main():
-    show_command()
+    print(commands)
     while True:
         try:
             match func := input("Function: ").strip():
@@ -35,6 +53,8 @@ def main():
                     view_tasks()
                 case "mark":
                     complete_task()
+                case "unmark":
+                    uncomplete_task()
                 case "del":
                     delete_task()
                 case "clear":
@@ -43,7 +63,7 @@ def main():
                     raise ValueError
         except SyntaxError:
             os.system('cls' if os.name == 'nt' else 'clear')
-            show_command()
+            print(commands)
             pass
         except ValueError:
             print("Invalid function!")
@@ -57,7 +77,7 @@ def add_task():
     description = input("Description: ")
     due_date = input("Due Date: ")
 
-    new_task = Task(title, description, due_date, status=("Incomplete"))
+    new_task = Task(title, description, due_date, status=("Uncomplete"))
     new_task.write()
 
 
@@ -81,6 +101,21 @@ def complete_task():
                 writer.writerows(row)
 
 
+def uncomplete_task():
+    uncomplete = input("Task Completed: ")
+    with open("task.csv", "r") as csvfile:
+        reader = csv.DictReader(csvfile)
+        row = list(reader)
+        for task in row:
+            if uncomplete == task["Title"]:
+                task["Status"] = "Uncomplete"
+        with open("task.csv", "w", newline="") as csvfile:
+                fieldnames = ["Title", "Description", "Due Date", "Status"]
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames,dialect="excel")
+                writer.writeheader()
+                writer.writerows(row)
+
+
 def delete_task():
     delete = input("Task to be Deleted: ")
     with open("task.csv", "r") as csvfile:
@@ -94,21 +129,6 @@ def delete_task():
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
                 writer.writerows(new_rows)
-
-
-def show_command():
-    print("""
-    _____________________________________
-    ===========Task Tracker==============
-
-    add      | Add Task
-    view     | View Tasks
-    mark     | Mark Tasks Completed
-    del      | Delete Tasks
-    clear    | Restart
-    Ctrl + D | Exit
-    _____________________________________
-    """)
 
 
 if __name__ == "__main__":
