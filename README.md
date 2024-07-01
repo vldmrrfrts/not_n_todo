@@ -1,5 +1,5 @@
 # not_n_todo
-https://img.shields.io/badge/Working-green
+(https://img.shields.io/badge/Working-green) 
 
 ![main menu/commands of the program](https://github.com/vldfrts/not_n_todo/assets/172185952/ad91cace-c0e5-44f8-915c-397a315e7056)
 
