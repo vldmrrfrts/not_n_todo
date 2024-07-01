@@ -3,7 +3,7 @@
 
 This Python-written command line interface program is dedicated to managing tasks effectively and efficiently. This is the much more complicated version of my CS50P Final Project (Task Manager) complete with the core functionality of the base version but with additional reading, writing, and appending capability to a CSV file to store the tasks.
 
-You may see my final project in CS50P at: https://youtu.be/CdcH_jJYYF8?si=qOw4Qiios2_IOJ0S
+You may see the base version of this which is my final project in CS50P at: https://youtu.be/CdcH_jJYYF8?si=qOw4Qiios2_IOJ0S
 
 ## SUGGESTIONS | :D
 Suggestions to improve and/or shorten this code will be much appreciated:D
