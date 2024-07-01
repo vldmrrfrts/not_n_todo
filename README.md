@@ -1,7 +1,12 @@
 # not_n_todo
+https://img.shields.io/badge/Working-green
+
 ![main menu/commands of the program](https://github.com/vldfrts/not_n_todo/assets/172185952/ad91cace-c0e5-44f8-915c-397a315e7056)
 
-This Python-written command line interface program is dedicated to managing tasks effectively and efficiently. This is the much more complicated version of my CS50P Final Project (Task Manager) complete with the core functionality of the base version but with additional reading, writing, and appending capability to a CSV file to store the tasks.
+"not_n_todo" is a Python-written command line interface program is dedicated to managing tasks effectively and efficiently. This is the much more complicated version of my CS50P Final Project (Task Manager) complete with the core functionality of the base version but with additional reading, writing, and appending capability to a CSV file to store the tasks.
+
+It's called not_n_todo after I simplified and made the words "To do and not to do" more fun. 
+> Yeah.. Lmao
 
 You may see the base version of this which is my final project in CS50P at: https://youtu.be/CdcH_jJYYF8?si=qOw4Qiios2_IOJ0S
 
