@@ -64,7 +64,6 @@ def main():
         except SyntaxError:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(commands)
-            pass
         except ValueError:
             print("Invalid function!")
         except EOFError:
