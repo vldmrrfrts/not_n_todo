@@ -104,7 +104,7 @@ def main():
 ### IF "FUNC" IS...
 
 ### add
- The add_task function is initiated where the user is asked for certain parameters to be assigned to each parameter in the Task object; where it is appended to a CSV file called tasks.csv.
+ The add_task function is initiated where the user is asked for certain parameters to be assigned to each parameter in the Task object; where it is appended to a CSV file called task.csv.
 ```python
 def add_task():
     title = input("Title: ")
