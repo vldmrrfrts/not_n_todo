@@ -6,7 +6,7 @@ This Python-written command line interface program is dedicated to managing task
 You may see the base version of this which is my final project in CS50P at: https://youtu.be/CdcH_jJYYF8?si=qOw4Qiios2_IOJ0S
 
 > [!IMPORTANT]
-> This was created using Python 3.12, and this program specifically requires you to import the csv, os, and tabulate modules (if not yet imported).
+> This was created using Python 3.12.4, and this program specifically requires you to import the csv, os, and tabulate modules (if not yet imported).
 > If not installed yet, make sure you have Python in your device; and run this in the terminal one by one:
 ```
 pip install csv
