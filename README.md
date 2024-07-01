@@ -7,12 +7,13 @@ You may see the base version of this which is my final project in CS50P at: http
 
 > [!IMPORTANT]
 > This was created using Python 3.12.4, and this program specifically requires you to import the csv, os, and tabulate modules.
-> If not installed yet, make sure you have Python in your device; and run this in the terminal one by one:
+> If Python or the modules are not installed yet, make sure you have Python in your device; and run this in the terminal one by one:
 ```
 pip install csv
 pip install os
 pip install tabulate
 ```
+You may see the full Python Docs in: https://docs.python.org/3/
 
 ## SUGGESTIONS | :D
 Suggestions to improve and/or shorten this code will be much appreciated:D
