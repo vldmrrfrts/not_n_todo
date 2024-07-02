@@ -1,10 +1,12 @@
 # not_n_todo
-![Static Badge](https://img.shields.io/badge/Working-green)
-![Static Badge](https://img.shields.io/badge/Python3-yellow)
+![Static Badge](https://img.shields.io/badge/python%203.12.4-yellow?style=for-the-badge&logo=Python)
+![Static Badge](https://img.shields.io/badge/passing-green?style=for-the-badge&logo=Pytest)
+![Static Badge](https://img.shields.io/badge/made%20in%20windows-blue?style=for-the-badge&logo=Windows)
+![Static Badge](https://img.shields.io/badge/open%20for%20pulls-red?style=for-the-badge&logo=GitHub)
 
 ![main menu/commands of the program](https://github.com/vldfrts/not_n_todo/assets/172185952/ad91cace-c0e5-44f8-915c-397a315e7056)
 
-"not_n_todo" is a Python-written command line interface program is dedicated to managing tasks effectively and efficiently. This is the much more complicated version of my CS50P Final Project (Task Manager) complete with the core functionality of the base version but with additional reading, writing, and appending capability to a CSV file to store the tasks.
+"not_n_todo" is a Python-written command line interface program dedicated to managing tasks effectively and efficiently. This is the much more complicated version of my CS50P Final Project (Task Manager) complete with the core functionality of the base version but with additional reading, writing, and appending capability to a CSV file to store the tasks.
 
 It's called not_n_todo after I simplified and made the words "To do and not to do" more fun. 
 > Yeah.. Lmao
@@ -12,14 +14,14 @@ It's called not_n_todo after I simplified and made the words "To do and not to d
 You may see the base version of this which is my final project in CS50P at: https://youtu.be/CdcH_jJYYF8?si=qOw4Qiios2_IOJ0S
 
 > [!IMPORTANT]
-> This was created using Python 3.12.4, and this program specifically requires you to import the csv, os, and tabulate modules.
+> This was created using Python 3.12.4, and this program specifically requires you to import the CSV, os, and tabulate modules.
 > If Python or the modules are not installed yet, make sure you have Python in your device; and run this in the terminal one by one:
 ```
 pip install csv
 pip install os
 pip install tabulate
 ```
-You may see the full Python Docs in: https://docs.python.org/3/
+You may see the full Python Docs at: https://docs.python.org/3/
 
 ## SUGGESTIONS | :D
 Suggestions to improve and/or shorten this code will be much appreciated:D
