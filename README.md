@@ -1,7 +1,7 @@
 # not_n_todo
 ![Python](https://img.shields.io/badge/python%203.12.4-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Static Badge](https://img.shields.io/badge/passing-green?style=for-the-badge&logo=Pytest)
-![Static Badge](https://img.shields.io/badge/made%20in%20windows-blue?style=for-the-badge&logo=Windows)
+![Pytest](https://img.shields.io/badge/passing-green?style=for-the-badge&logo=Pytest)
+![Windows](https://img.shields.io/badge/made%20in%20windows-blue?style=for-the-badge&logo=Windows)
 ![GitHub](https://img.shields.io/badge/open%20for%20pulls-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ![main menu/commands of the program](https://github.com/vldfrts/not_n_todo/assets/172185952/ad91cace-c0e5-44f8-915c-397a315e7056)
