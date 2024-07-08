@@ -3,6 +3,7 @@
 ![Pytest](https://img.shields.io/badge/passing-green?style=for-the-badge&logo=Pytest)
 ![Windows](https://img.shields.io/badge/made%20in%20windows-blue?style=for-the-badge&logo=Windows)
 ![GitHub](https://img.shields.io/badge/open%20for%20pulls-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white)
 
 ![main menu/commands of the program](https://github.com/vldfrts/not_n_todo/assets/172185952/ad91cace-c0e5-44f8-915c-397a315e7056)
 
