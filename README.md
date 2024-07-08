@@ -1,6 +1,6 @@
 # not_n_todo
 ![Python](https://img.shields.io/badge/python%203.12.4-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Pytest](https://img.shields.io/badge/pytester-green?style=for-the-badge&logo=Pytest&logoColor=white)
+![Working](https://img.shields.io/badge/working-green?style=for-the-badge)
 ![GitHub](https://img.shields.io/badge/open%20for%20pulls-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white)
 
