@@ -24,12 +24,12 @@ pip install tabulate
 You may see the full Python Docs at: https://docs.python.org/3/
 
 ## SUGGESTIONS | :D
-Suggestions to improve and/or shorten this code will be much appreciated:D
+Suggestions to improve and/or shorten this code will be much appreciated!
 > Create a pull request
 
 ## HOW DOES IT WORK?
 This ultra-simplistic command line interface program is dedicated to managing tasks effectively and efficiently. 
-> The worst part about this is that I took 6 hours to figure out how all of this works:(
+> The worst part about this is that I took 6 hours to figure out how all of this works.
 
 A Task object is summoned to create a new CSV file if there is not an existing one yet, and append to the file the user's task Title, Description, Due Date, and Status, based on the corresponding object parameters.
 ```python
